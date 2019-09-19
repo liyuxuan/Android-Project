@@ -1,0 +1,37 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按下的按钮-->
+    <item android:state_pressed="true">
+        <shape>
+            <!--背景颜色-->
+            <solid android:color="#90ee90" />
+
+            <!--渐变色的按钮-->
+            <gradient android:angle="270" android:startColor="#ADD8E6" android:endColor="#ADD8E6"  />
+            <!--形状的边框角度-->
+
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <!--背景颜色-->
+            <solid android:color="#90ee90" />
+
+            <!--渐变色的按钮-->
+            <gradient android:angle="270" android:startColor="#ADD8E6" android:endColor="#ADD8E6"  />
+            <!--形状的边框角度-->
+
+        </shape>
+    </item>
+    <!--抬起的按钮-->
+    <item>
+        <shape>
+            <!--背景颜色-->
+            <solid android:color="#90ee90" />
+
+            <!--渐变色的按钮-->
+            <gradient android:angle="270" android:startColor="#ffffff" android:endColor="#ffffff"  />
+
+
+        </shape>
+    </item>
+</selector>

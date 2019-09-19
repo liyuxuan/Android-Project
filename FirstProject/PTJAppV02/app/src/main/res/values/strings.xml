@@ -1,0 +1,75 @@
+<resources>
+    <!--Strings related to app-->
+    <string name="app_name">仲裁应用</string>
+    <string name="app_login">登录</string>
+    <string name="app_photo">采样</string>
+    <string name="app_resign">注册</string>
+    <string name="app_message">短信</string>
+
+    <string name="app_face_recognizate">人脸识别</string>
+    <string name="app_doing">处理进行中</string>
+
+    <string name="app_ok">确认</string>
+    <string name="app_no">取消</string>
+
+
+    <string name="app_net_adjust">网络连接故障！请调整手机设置</string>
+    <string name="app_photo_adjust">采样数据故障！请调整采样</string>
+    <string name="app_resign_first">请先进行注册</string>
+
+    <string name="app_time_out">数据传输超时！</string>
+    <string name="app_pass">通过</string>
+    <string name="app_nopass">未通过</string>
+
+    <string name="app_messagecheck">请进行短信验证!</string>
+    <string name="app_phone_input">请输入电话号码</string>
+    <string name="app_checkcode_input">请输入验证码</string>
+    <string name="app_checkcode_send">发送验证码</string>
+    <string name="app_checkcode_get">获取验证码</string>
+
+    <string name="app_nonullable_input">输入不能为空！</string>
+    <string name="app_nonullable_right">用户不存在！</string>
+
+    <string name="app_font">正面照片</string>
+    <string name="app_back">反面照片</string>
+    <string name="app_confirm">确认</string>
+
+    <string name="app_choose_photo">选择照片</string>
+    <string name="app_submit">提交</string>
+
+    <string name="app_oper_fail">操作失败!</string>
+    <string name="app_welcome_sys">北辰仲裁院仲裁系统!</string>
+    <string name="app_welcome">欢迎使用</string>
+
+    <string name="oper_home">首页</string>
+    <string name="oper_setup">申请立案</string>
+    <string name="oper_query">案件查询</string>
+    <string name="oper_connect">联系我们</string>
+    <string name="oper_hadreaden">已读</string>
+    <string name="app_news">政策通知</string>
+
+    <string name="app_case_setup">立案申请</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">名称</string>
+    <string name="nav_header_subtitle">联系电话</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">操作菜单</string>
+    <string name="menu_gallery">用户注册</string>
+    <string name="menu_slideshow">用户登录</string>
+    <string name="menu_share">软件设置</string>
+    <string name="menu_send">推送</string>
+    <string name="app_setting">软件设置</string>
+</resources>

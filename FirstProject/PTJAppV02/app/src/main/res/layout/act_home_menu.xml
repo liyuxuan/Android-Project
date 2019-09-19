@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:gravity="center"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/shape_corner_menu">
+    <TextView
+        android:id="@+id/btnSetUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:text="@string/oper_setup"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:background="@drawable/shape_btn_h_menu_selector"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentBottom="true"
+        android:background="#008B8B" />
+    <TextView
+        android:id="@+id/btnQuery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:text="@string/oper_query"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:background="@drawable/shape_btn_h_menu_selector"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentBottom="true"
+        android:background="#008B8B" />
+    <TextView
+        android:id="@+id/btnPerson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:text="@string/oper_connect"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:background="@drawable/shape_btn_h_menu_selector"
+        />
+</LinearLayout>

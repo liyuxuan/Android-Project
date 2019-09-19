@@ -1,0 +1,47 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按下的按钮-->
+    <item android:state_pressed="true">
+        <shape>
+            <!--背景颜色-->
+            <solid android:color="#90ee90" />
+
+            <!--渐变色的按钮-->
+            <gradient android:angle="270" android:startColor="#66CDAA" android:endColor="#90ee90"  />
+
+            <!--边框线-->
+            <stroke android:width="1dp" android:color="#fff" />
+            <!--形状的边框角度-->
+            <corners android:bottomLeftRadius="25dp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <!--背景颜色-->
+            <solid android:color="#90ee90" />
+
+            <!--渐变色的按钮-->
+            <gradient android:angle="270" android:startColor="#66CDAA" android:endColor="#90ee90"  />
+
+            <!--边框线-->
+            <stroke android:width="1dp" android:color="#fff" />
+            <!--形状的边框角度-->
+            <corners android:bottomLeftRadius="25dp"/>
+        </shape>
+    </item>
+    <!--抬起的按钮-->
+    <item>
+        <shape>
+            <!--背景颜色-->
+            <solid android:color="#90ee90" />
+
+            <!--渐变色的按钮-->
+            <gradient android:angle="270" android:startColor="#90ee90" android:endColor="#66CDAA"  />
+
+            <!--边框线-->
+            <stroke android:width="1dp" android:color="#fff" />
+            <!--形状的边框角度-->
+            <corners android:bottomLeftRadius="25dp"/>
+
+        </shape>
+    </item>
+</selector>

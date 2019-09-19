@@ -1,0 +1,46 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按下的按钮-->
+    <item android:state_pressed="true">
+        <shape
+            android:shape="oval"
+            android:useLevel="false"
+            >
+            <!--背景颜色-->
+            <solid  android:color="	#4682B4" />
+            <size   android:width="50dp"
+                android:height="50dp"/>
+            <!--形状的边框角度-->
+            <stroke android:width="1px" android:color="#ADD8E6" />
+
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape
+            android:shape="oval"
+            android:useLevel="false"
+            >
+            <!--背景颜色-->
+            <solid  android:color="	#4682B4" />
+            <size   android:width="50dp"
+                android:height="50dp"/>
+            <!--形状的边框角度-->
+            <stroke android:width="1px" android:color="#ADD8E6" />
+
+        </shape>
+    </item>
+    <!--抬起的按钮-->
+    <item>
+        <shape
+            android:shape="oval"
+            android:useLevel="false"
+            >
+            <!--背景颜色-->
+            <solid  android:color="#ffffff" />
+            <size   android:width="50dp"
+                    android:height="50dp"/>
+            <!--形状的边框角度-->
+            <stroke android:width="1px" android:color="#ADD8E6" />
+
+        </shape>
+    </item>
+</selector>

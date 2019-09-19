@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.core.tool.SlideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="62dp"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:id="@+id/v"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="#5F9EA0"
+                />
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/shape_btn_list_item_selector"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="content"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:layout_above="@id/v"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_btn_list_del_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/oper_hadreaden"
+        android:textSize="20dp" />
+
+</cn.com.core.tool.SlideLayout>

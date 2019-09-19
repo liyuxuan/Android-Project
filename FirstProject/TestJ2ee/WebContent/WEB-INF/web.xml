@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TestJ2ee</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+<!-- 监测短信 -->
+	<servlet>
+		<servlet-name>CheckMessageServlet</servlet-name>
+		<servlet-class>com.servlet.CheckMessageServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CheckMessageServlet</servlet-name>
+		<url-pattern>/CheckMessage</url-pattern>
+	</servlet-mapping>
+<!-- 监测身份证 -->
+	<servlet>
+		<servlet-name>CheckIdCardServlet</servlet-name>
+		<servlet-class>com.servlet.CheckIdCardServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CheckIdCardServlet</servlet-name>
+		<url-pattern>/CheckIdCard</url-pattern>
+	</servlet-mapping>
+<!-- 监测人脸 -->
+	<servlet>
+		<servlet-name>CheckFaceServlet</servlet-name>
+		<servlet-class>com.servlet.CheckFaceServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CheckFaceServlet</servlet-name>
+		<url-pattern>/CheckFace</url-pattern>
+	</servlet-mapping>
+<!-- 用户管理 -->
+	<servlet>
+		<servlet-name>UserManagerServlet</servlet-name>
+		<servlet-class>com.servlet.UserManagerServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserManagerServlet</servlet-name>
+		<url-pattern>/UserManager</url-pattern>
+	</servlet-mapping>
+<!-- 测试用例 -->
+	<servlet>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>com.servlet.TestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/TestManager</url-pattern>
+	</servlet-mapping>
+
+	
+	<!-- 文件下載更新 -->
+	<servlet>
+		<servlet-name>CheckFileServlet</servlet-name>
+		<servlet-class>com.servlet.CheckFileServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CheckFileServlet</servlet-name>
+		<url-pattern>/CheckFile</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 进行案件的相应信息的内容 -->	
+	<servlet>
+		<servlet-name>CheckCaseServlet</servlet-name>
+		<servlet-class>com.servlet.CheckCaseServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CheckCaseServlet</servlet-name>
+		<url-pattern>/Case</url-pattern>
+	</servlet-mapping>	
+	
+</web-app>

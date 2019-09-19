@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/ideasandroidlogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/ideasandroidlogo"
+            android:gravity="center"
+            android:text="@string/app_messagecheck"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:padding="5dp"
+            android:hint="@string/app_phone_input"
+            android:inputType="textPhonetic"
+            android:singleLine="true"
+            android:maxLength="11"
+            android:background="@drawable/shape_et_all_l"
+            />
+
+        <TextView
+            android:id="@+id/btnCheckCode"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:layout_weight="2"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="@string/app_checkcode_send"
+            android:clickable="true"
+            android:background="@drawable/shape_btn_all_r_selector"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay2"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+<!--        <com.tju.library.CodeEditView-->
+<!--            android:id="@+id/etCheckCode"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:textColor="@color/colorAccent"-->
+<!--            app:borderNum="5"-->
+<!--            app:borderMargin="5"-->
+<!--            app:borderSize="48"-->
+<!--            />-->
+        <EditText
+            android:id="@+id/etCheckCode"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:padding="5dp"
+            android:hint="请输入验证号码"
+            android:background="@drawable/shape_et_all_l"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay3"
+        android:layout_margin="1dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btnOk"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="@string/app_ok"
+            android:clickable="true"
+            android:background="@drawable/shape_btn_all_selector"
+            />
+        <TextView
+            android:id="@+id/btnNo"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="@string/app_no"
+            android:clickable="true"
+            android:onClick="listenerNo"
+            android:background="@drawable/shape_btn_all_selector"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

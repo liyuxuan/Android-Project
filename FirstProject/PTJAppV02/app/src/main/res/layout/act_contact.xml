@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/layTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/app_head_menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layTop"
+        android:background="@drawable/shape_corner_round3"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@mipmap/a"
+            />
+        <View
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true"
+            android:background="#008B8B" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="大美青海,美丽西宁\n传说曾经有一位仙女来到了这个地方，\n流落一滴泪,晶莹剔透\n于是，有了你——青海湖\n彩虹为你画眉\n鱼儿伴你，\n激起涟漪，青海不只有高原\n同样也有诗意!"
+                android:lineSpacingExtra="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
